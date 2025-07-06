@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa Interactivo Prepa 6</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Mapa Interactivo de Salones - Prepa 6</h1>
+  <input type="text" id="search" placeholder="Ej. C4, D8, FA..." />
+  <button onclick="buscarSalon()">Buscar</button>
+
+  <div id="mapa-container">
+    <img id="mapa" src="planta_baja.png" alt="Mapa" />
+    <div id="marcador"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

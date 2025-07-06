@@ -1,0 +1,25 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+#mapa-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+#mapa {
+  max-width: 100%;
+  height: auto;
+}
+#marcador {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
